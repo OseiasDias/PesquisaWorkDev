@@ -1,0 +1,51 @@
+.clima .icones-clima {
+    font-size: 1.6em;
+    margin: 2px 5px;
+}
+
+.bg-azul {
+    color: #fff;
+    background-image: linear-gradient(#6954e0, #6954e0);
+    border-bottom-left-radius: 55px;
+}
+
+.div-header {
+    background-image: url("../assets/img/bg.png");
+
+    background-position: center;
+    background-repeat: repeat;
+    border-bottom-left-radius: 60px;
+}
+
+.ultimosIntes{
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+.ultimosIntes:hover{
+    color: black;
+    font-size: 1.6em;
+}
+.btnConecta{
+    color:#fff !important;
+    border:2px solid #fff !important;
+    transition: all ease-in 200ms;
+    margin-bottom: 30px;
+
+}
+
+.btnConecta:hover{
+    transform: scale(1.1);
+}
+
+.bg-radius{
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-top: 50px;
+}
+
+@media (max-width:768px) {
+    .bg-azul {
+        border-bottom-left-radius: 0px;
+    }
+}

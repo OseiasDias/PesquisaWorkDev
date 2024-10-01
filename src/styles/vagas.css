@@ -1,0 +1,118 @@
+.barra-pesquisa {
+    margin-top: -40px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px #5964e0;
+}
+.input-group{
+   
+}
+
+.textoPesquisa {
+    font-style: normal;
+}
+
+.btnPesquisa{
+    display:none;
+}
+
+.btn-plus{
+    background-color: #5964e0;
+    color: #fff;
+    border: 2px solid #5964e0 !important;
+}
+.btn-plus:hover{
+    
+    background-color: #00000000;
+    color: #5964e0 !important;
+    transition:all ;
+}
+
+.icone-tecnologia{
+    margin-top: -28px;
+    margin-left: 10px;
+}
+.icone-tecnologia i{
+    background-color: #5964e0;
+    padding: 6px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.4em;
+}
+
+.grupoParagrafos p:first-child{
+    color: #808080;
+    font-size: .9em;
+}
+
+.grupoParagrafos p:nth-child(2){
+    font-weight: 700;
+}
+
+.grupoParagrafos p:nth-child(3){
+    color: #808080;
+}
+.grupoParagrafos p:nth-child(4){
+    color: #5964e0;
+    font-size: .9em;
+    font-weight: 500;
+}
+.efeitoDiv{
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #5964e0;
+}
+.efeitoDiv:hover{
+    transform: scale(1.1);
+}
+
+.barra-pesquisa {
+    width: 100% !important;
+}
+
+.linhaPesquisa{
+    width:100% !important;
+}
+
+@media (max-width:768px) {
+    .btnPesquisa{
+        display:block;
+        font-size: 1.3em;
+    }
+    .barra-pesquisa {
+        width: 100% !important;
+    }
+
+  
+    .linhaPesquisa{
+        width:100% !important;
+    }
+   
+
+    .textoPesquisa {
+        display: none;
+    }
+}
+@media (max-width:530px) {
+  
+    .barra-pesquisa {
+        width: 100% !important;
+    }
+
+  
+    .linhaPesquisa{
+        width:100% !important;
+    }
+ 
+}
+
+@media (max-width:400px) {
+  
+    .barra-pesquisa {
+        width: 100% !important;
+    }
+
+  
+    .linhaPesquisa{
+        width:100% !important;
+    }
+  
+}
